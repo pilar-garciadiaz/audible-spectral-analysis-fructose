@@ -47,14 +47,6 @@ Raw audio recording and Praat spectrum generation are not automated by the MATLA
 | Hundredths | 2.01–2.09 g/L | 0.01 g/L | 13 | 117 |
 | **Total** | **28 concentrations** |  |  | **364** |
 
-The historical project uses these data locations:
-
-```text
-src/spectrum data acquisition/espectros_mls_unidades/
-src/spectrum data acquisition/espectros_mls_decimas/
-src/spectrum data acquisition/espectros_mls_centesimas/
-src/classifier/Datos/
-```
 
 The complete research data are to be deposited in a trusted research-data repository. When the persistent identifier is available, replace the following marker:
 
@@ -124,9 +116,6 @@ Five independent simulations were performed for each sample collection. The arti
     │   ├── programa.m
     │   └── reparacion_individuo.m
     └── spectrum data acquisition/
-        ├── espectros_mls_centesimas/
-        ├── espectros_mls_decimas/
-        ├── espectros_mls_unidades/
         ├── dibujar.m
         ├── dibujar_matriz_datos.m
         ├── leer_datos.m
@@ -282,7 +271,7 @@ A reproducibility report should record:
 ```text
 Software version: 1.0.0
 Release date: 2026-11-10
-Software DOI: [ZENODO VERSION DOI TO BE ADDED]
+Software DOI: https://doi.org/10.5281/zenodo.24119982
 Git commit:
 Dataset DOI and version: [DATASET DOI TO BE ADDED]
 MATLAB release: R2020a
@@ -293,11 +282,6 @@ Maximum generations: 50
 Population size: 50
 Mutation probability: 0.1
 Training/testing split: 80/20
-ELM neurons:
-Selected frequencies:
-Accuracy and standard deviation:
-Execution time:
-Differences from the article:
 ```
 
 Because the optimization procedure is stochastic, exact reproduction requires the same data, preprocessing, code version, parameters, random seeds, and numerical environment.
@@ -320,7 +304,7 @@ If you use this software, cite the archived software release, the associated art
 ```text
 García Díaz, P. (2026). MATLAB software for non-destructive audible
 spectral analysis of aqueous fructose solutions (Version 1.0.0)
-[Computer software]. Zenodo. https://doi.org/[SOFTWARE DOI TO BE ADDED]
+[Computer software]. Zenodo. https://doi.org/10.5281/zenodo.24119982
 ```
 
 ### Article
@@ -357,8 +341,6 @@ Third-party files retain their original copyright and license terms. See `THIRD_
 |---|---|
 | Article | https://doi.org/10.3390/app11167301 |
 | Dataset | `[DATASET DOI TO BE ADDED]` |
-| Software release | `[ZENODO VERSION DOI TO BE ADDED]` |
-| Software concept | `[ZENODO CONCEPT DOI TO BE ADDED]` |
-| Software Heritage archive | `[SWHID TO BE ADDED, IF USED]` |
+| Software release | https://doi.org/10.5281/zenodo.24119982 |
 
 Stable releases are intended to be archived in Zenodo through the GitHub integration. Use the version DOI for exact reproducibility and the concept DOI to refer to all software versions.
