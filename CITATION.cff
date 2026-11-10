@@ -1,0 +1,72 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite the archived software release,
+  the associated research article, and the associated dataset.
+title: >-
+  MATLAB software for non-destructive audible spectral analysis of
+  aqueous fructose solutions
+type: software
+abstract: >-
+  MATLAB R2020a research software associated with the 2021 Applied
+  Sciences article "Study of the Optimal Waveforms for Non-Destructive
+  Spectral Analysis of Aqueous Solutions by Means of Audible Sound and
+  Optimization Algorithms". The spectrum-data-processing component
+  prepares the input information required by the classifier. The
+  classifier is executed through programa.m and applies a grouping
+  genetic algorithm with an Extreme Learning Machine fitness function
+  to extract acoustic frequencies for classifying fructose
+  concentrations in distilled water. The optional third-party
+  visualization function bubbleplot.m is not distributed.
+authors:
+  - family-names: "García Díaz"
+    given-names: "Pilar"
+    affiliation: "Universidad de Alcalá"
+    orcid: "https://orcid.org/0000-0002-5361-6947"
+contact:
+  - family-names: "García Díaz"
+    given-names: "Pilar"
+    affiliation: "Universidad de Alcalá"
+    orcid: "https://orcid.org/0000-0002-5361-6947"
+    email: "pilar.garcia@uah.es"
+version: "1.0.0"
+date-released: "2026-11-10"
+license: Apache-2.0
+keywords:
+  - "MATLAB R2020a"
+  - "acoustic chemical analysis"
+  - "audible acoustic spectroscopy"
+  - "non-destructive analysis"
+  - "aqueous solutions"
+  - "fructose concentration"
+  - "spectral data processing"
+  - "feature extraction"
+  - "grouping genetic algorithm"
+  - "Extreme Learning Machine"
+  - "automatic classification"
+  - "research software"
+  - "open science"
+identifiers:
+  - type: doi
+    value: "10.3390/app11167301"
+    description: "DOI of the associated research article"
+references:
+  - type: article
+    title: >-
+      Study of the Optimal Waveforms for Non-Destructive Spectral
+      Analysis of Aqueous Solutions by Means of Audible Sound and
+      Optimization Algorithms
+    authors:
+      - family-names: "García Díaz"
+        given-names: "Pilar"
+      - family-names: "Utrilla Manso"
+        given-names: "Manuel"
+      - family-names: "Alpuente Hermosilla"
+        given-names: "Jesús"
+      - family-names: "Martínez Rojas"
+        given-names: "Juan A."
+    journal: "Applied Sciences"
+    volume: "11"
+    issue: "16"
+    year: 2021
+    doi: "10.3390/app11167301"
+    url: "https://doi.org/10.3390/app11167301"
