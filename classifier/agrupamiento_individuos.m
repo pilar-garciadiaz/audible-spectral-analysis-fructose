@@ -28,7 +28,7 @@
 % https://github.com/pilar-garciadiaz]/audible-spectral-analysis-fructose
 %
 % Software DOI:
-% [ZENODO VERSION DOI TO BE ADDED]
+% https://doi.org/10.5281/zenodo.24119982
 %
 % Author:
 % Pilar Garcia Diaz, Universidad de Alcala
@@ -37,8 +37,8 @@
 function grupos=agrupamiento_individuos(num_total,num_grupos, num_ind_grupo,repetir_ind)
 % Formar grupos de individuos
 % grupos es una matriz nxm siendo 
-%                   n el num_grupos (núm. de grupos)
-%                   m el num_ind_grupo (núm. indiv en cada grupo)
+%                   n el num_grupos (nÃºm. de grupos)
+%                   m el num_ind_grupo (nÃºm. indiv en cada grupo)
 % repetir_ind = 1 CON REPETICIONES ENTRE GRUPOS Y DENTRO DE LOS GRUPOS,
 %                 un individuo puede partircipar en varios grupos y 
 %                 puede haber dobles en un mismo grupo
