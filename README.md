@@ -1,10 +1,6 @@
 # audible-spectral-analysis-fructose
 MATLAB implementation of spectral data processing and GGA-ELM classification for aqueous fructose solutions excited with audible sound.
 
-[![Article DOI](https://img.shields.io/badge/Article-10.3390%2Fapp11167301-blue)](https://doi.org/10.3390/app11167301)
-[![MATLAB](https://img.shields.io/badge/MATLAB-R2020a-orange)](#software-requirements)
-[![License](https://img.shields.io/badge/Project%20code-Apache--2.0-green)](LICENSE)
-
 ## Overview
 
 This repository contains the MATLAB research software associated with:
@@ -49,12 +45,9 @@ Raw audio recording and Praat spectrum generation are not automated by the MATLA
 
 
 The complete research data are to be deposited in a trusted research-data repository. When the persistent identifier is available, replace the following marker:
-
-```text
-Dataset DOI: [DATASET DOI TO BE ADDED]
-```
-
-Do not duplicate the complete dataset in GitHub unless its license expressly permits redistribution. A small, non-sensitive validation example may be included.
+Dataset
+Pilar, Garcia Diaz; Utrilla-Manso, Manuel; Jesús, Alpuente Hermosilla; Martínez Rojas, Juan Antonio, 2026, "Audible-Sound Spectral Dataset for the Non-Destructive Classification of Aqueous Fructose Solutions"
+https://doi.org/10.21950/BLMGTU, e-cienciaDatos, V1
 
 ## Reference algorithm configuration
 
@@ -142,10 +135,7 @@ These files process the acoustic spectra and prepare the input information requi
 ### Classification
 
 The main classification executable is:
-
-```text
 src/classifier/programa.m
-```
 
 The remaining files implement data reading, initial population generation, grouping, crossover, mutation, repair, individual evaluation, genetic optimization, visualization, and Extreme Learning Machine evaluation.
 
@@ -268,12 +258,11 @@ Pilar García Díaz is the author of the project-specific MATLAB software. `mtit
 
 A reproducibility report should record:
 
-```text
 Software version: 1.0.0
 Release date: 2026-11-10
 Software DOI: https://doi.org/10.5281/zenodo.24119982
 Git commit:
-Dataset DOI and version: [DATASET DOI TO BE ADDED]
+Dataset DOI: 10.21950/BLMGTU (Version V1)
 MATLAB release: R2020a
 MATLAB toolboxes: none beyond base MATLAB
 Operating system: Microsoft Windows
@@ -282,7 +271,7 @@ Maximum generations: 50
 Population size: 50
 Mutation probability: 0.1
 Training/testing split: 80/20
-```
+
 
 Because the optimization procedure is stochastic, exact reproduction requires the same data, preprocessing, code version, parameters, random seeds, and numerical environment.
 
@@ -301,11 +290,8 @@ If you use this software, cite the archived software release, the associated art
 
 ### Software
 
-```text
-García Díaz, P. (2026). MATLAB software for non-destructive audible
-spectral analysis of aqueous fructose solutions (Version 1.0.0)
-[Computer software]. Zenodo. https://doi.org/10.5281/zenodo.24119982
-```
+García Díaz, P. (2026). MATLAB software for non-destructive audible spectral analysis of aqueous fructose solutions 
+(Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.24119982
 
 ### Article
 
@@ -325,9 +311,9 @@ spectral analysis of aqueous fructose solutions (Version 1.0.0)
 
 ### Dataset
 
-```text
-[DATASET CITATION AND DOI TO BE ADDED]
-```
+Pilar, Garcia Diaz; Utrilla-Manso, Manuel; Jesús, Alpuente Hermosilla; Martínez Rojas, Juan Antonio, 2026.
+Audible-Sound Spectral Dataset for the Non-Destructive Classification of Aqueous Fructose Solutions. 
+https://doi.org/10.21950/BLMGTU, e-cienciaDatos, V1
 
 ## License
 
@@ -340,7 +326,7 @@ Third-party files retain their original copyright and license terms. See `THIRD_
 | Output | Persistent identifier |
 |---|---|
 | Article | https://doi.org/10.3390/app11167301 |
-| Dataset | `[DATASET DOI TO BE ADDED]` |
+| Dataset | https://doi.org/10.21950/BLMGTU |
 | Software release | https://doi.org/10.5281/zenodo.24119982 |
 
 Stable releases are intended to be archived in Zenodo through the GitHub integration. Use the version DOI for exact reproducibility and the concept DOI to refer to all software versions.
